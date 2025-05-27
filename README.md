@@ -15,3 +15,9 @@ This repository serves as ZEAM's intellectual property record.  All patents form
 ### Genesis Dcoument Anchor Method for AI Behavior | 63/811,758 | Submitted: 05/25/2025
 
 ### On-Chain VM for Deterministic Language Model Execution | 63/811,763 | Submitted: 05/25/2025
+
+### Stateless Action Engine & Minimal Proof Logging | 63/812,634 | Submitted: 05/27/2025
+
+### One Action_One Mint Transaction Paradigm | 63/812,620 | Submitted: 05/27/2025
+
+### Epoch Rhythm & Syncronization Mechanism | 63/812,645 | Submitted: 05/27/2025
