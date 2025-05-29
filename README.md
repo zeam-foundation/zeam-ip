@@ -23,3 +23,5 @@ This repository serves as ZEAM's intellectual property record.  All patents form
 ### Epoch Rhythm & Syncronization Mechanism | 63/812,645 | Submitted: 05/27/2025
 
 ### Agent Lifecycle Dormancy Management | 63/814,230 | Submitted: 05/29/2025
+
+### Selective Memory Disclosure via Zero-Knowledge Proofs | 63/814,244 | Submitted: 05/29/2025
