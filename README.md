@@ -25,3 +25,5 @@ This repository serves as ZEAM's intellectual property record.  All patents form
 ### Agent Lifecycle Dormancy Management | 63/814,230 | Submitted: 05/29/2025
 
 ### Selective Memory Disclosure via Zero-Knowledge Proofs | 63/814,244 | Submitted: 05/29/2025
+
+### Identity Bound Memory Rights | 63/814,257 | Submitted: 05/29/2025
