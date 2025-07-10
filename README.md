@@ -1,8 +1,10 @@
 # ZEAM IP Ledger  
 
+UPDATED 7/9/2025
+
 This repository serves as ZEAM's intellectual property record.  All patents form the civic and cognitive substrate of the ZEAM memory field BlockMesh, including its governance, architecture, agent structure, surplus distribution model, and hybrid AI execution layers. 
 
-### BlockMesh Dencentralized Memory-Mesh Architecture | Patent Pending 63/810,843 | Submitted: 05/23/2025
+### BlockMesh Dencentralized Memory-Mesh Architecture | Patent Pending 63/810,843 | Submitted: 05/23/2025 | Updated 7/9/2025
 
 ### Memory Field Pressure & Tension System | Patent Pending 63/810,834 | Submitted: 05/23/2025
 
@@ -10,9 +12,9 @@ This repository serves as ZEAM's intellectual property record.  All patents form
 
 ### Proof of Memory Flow System | Patent Pending 63/810,837 | Submitted: 05/23/2025
 
-### Composite Cognition Pools for Emergent Memory-Driven Systems | Patent Pending 63/811,761 | Submitted: 05/25/2025
+### Composite Cognition Pools for Emergent Memory-Driven Systems | Patent Pending 63/811,761 | Submitted: 05/25/2025 | Updated 7/9/2025
 
-### Genesis Dcoument Anchor Method for AI Behavior | Patent Pending 63/811,758 | Submitted: 05/25/2025
+### Genesis Dcoument Anchor Method for AI Behavior | Patent Pending 63/811,758 | Submitted: 05/25/2025 | Updated 7/9/2025
 
 ### On-Chain VM for Deterministic Language Model Execution | Patent Pending 63/811,763 | Submitted: 05/25/2025
 
@@ -20,9 +22,9 @@ This repository serves as ZEAM's intellectual property record.  All patents form
 
 ### One Action_One Mint Transaction Paradigm | Patent Pending 63/812,620 | Submitted: 05/27/2025
 
-### Epoch Rhythm & Syncronization Mechanism | Patent Pending 63/812,645 | Submitted: 05/27/2025
+### Epoch Rhythm & Syncronization Mechanism | Patent Pending 63/812,645 | Submitted: 05/27/2025 | Uodated 7/9/2025
 
-### Agent Lifecycle Dormancy Management | Patent Pending 63/814,230 | Submitted: 05/29/2025
+### Agent Lifecycle Dormancy Management | Patent Pending 63/814,230 | Submitted: 05/29/2025 | Updated 7/9/2025
 
 ### Selective Memory Disclosure via Zero-Knowledge Proofs | Patent Pending 63/814,244 | Submitted: 05/29/2025
 
