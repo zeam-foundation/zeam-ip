@@ -6,11 +6,11 @@ This repository serves as ZEAM's intellectual property record.  All patents form
 
 ### BlockMesh Dencentralized Memory-Mesh Architecture | Patent Pending 63/810,843 | Submitted: 05/23/2025 | Updated 7/9/2025
 
-### Memory Field Pressure & Tension System | Patent Pending 63/810,834 | Submitted: 05/23/2025
+### Memory Field Pressure & Tension System | Patent Pending 63/810,834 | Submitted: 05/23/2025 | Updated 7/22/2025
 
-### Non-Generative Artificial Cognition Engine | Patent Pending 63/810,841 | Submitted: 05/23/2025
+### Non-Generative Artificial Cognition Engine | Patent Pending 63/810,841 | Submitted: 05/23/2025 | Updated 7/22/2025
 
-### Proof of Memory Flow System | Patent Pending 63/810,837 | Submitted: 05/23/2025
+### Proof of Memory Flow System | Patent Pending 63/810,837 | Submitted: 05/23/2025 | Updated 7/22/2025
 
 ### Composite Cognition Pools for Emergent Memory-Driven Systems | Patent Pending 63/811,761 | Submitted: 05/25/2025 | Updated 7/9/2025
 
