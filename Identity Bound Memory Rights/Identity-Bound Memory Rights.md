@@ -1,71 +1,104 @@
-Identity-Bound Memory Rights
+INVENTOR(S)
+[0001]	KIMZEY, Samuel C
 
-1.	Abstract:
-A method for binding immutable memory streams to unique, persistent identities on a decentralized memory-driven blockchain, ensuring that each identity’s historical events are non-transferable, tamper-proof, and enforce rights to access, control, and preserve personal memory records.
+TITLE
+[0002]	Identity-Bound Memory Rights
 
-2.	Technical Field:
-This invention relates to identity management and data rights on blockchain systems, and more particularly to methods for attaching memory rights to persistent, non-transferable identity anchors.
+TECHNICAL FIELD
+[0003]	The invention relates to identity management and personal data sovereignty in decentralized systems, specifically to methods for securing memory rights via persistent, non-transferable identity anchors on blockchain networks.
 
-3.	Background:
-Decentralized ledgers record vast histories of transactions and events, but lack a mechanism to securely bind those records to unique, persistent identities in a way that enforces rights over personal data. There is a need for a system that ensures memory streams are irrevocably linked to identities, preventing unauthorized transfer or tampering, and preserving ownership.
+BACKGROUND
+[0004]	Existing decentralized ledgers record historical transactions, but lack robust mechanisms for irrevocably binding those records to unique identities in a way that enforces control, access, and preservation rights over personal memory. This absence creates risks of unauthorized access, tampering, and disassociation from the rightful owner. A method is needed to ensure memory streams are anchored immutably and enforceably to a sovereign identity.
 
-4.	Summary:
-The Identity-Bound Memory Rights method comprises:
-Generating a non-transferable identity anchor (e.g., soulbound address) for each user or entity.
-Binding memory streams—chronological sequences of on-chain events—to the identity anchor via cryptographic links.
-Assigning rights over memory streams, including Access Right, Control Right, and Preservation Right.
-Enforcing rights by validating identity signatures before allowing memory retrieval or modification.
-Logging any unauthorized access attempts or rights violations as immutable audit events.
+SUMMARY
+[0005]	The Identity-Bound Memory Rights method comprises:
 
-5.	Detailed Description:
-At a conceptual level, each user or entity is issued a persistent, non-transferable identity anchor—such as a soulbound token or unique address—at network genesis or account creation. Memory streams, composed of on-chain minted events, are cryptographically linked to the identity anchor, forming an immutable record. Rights metadata stored alongside the stream define who may read, append, or delegate portions of the memory. Any request to interact with the memory stream must present a valid signature from the identity anchor. Unauthorized requests generate immutable audit logs capturing the violation details.
+1.	Generating a non-transferable identity anchor (e.g., soulbound address or token) for each user or entity.
+2.	Binding memory streams – chronological sequences of on-chain events – to the identity anchor via cryptographic links.
 
-6.	Method Flow:
-Step 1: Identity Anchor Creation – Generate a non-transferable identity token or address bound to the user.
-Step 2: Memory Event Linking – For each new memory event, include the identity anchor in the event metadata and cryptographic hash.
-Step 3: Rights Assignment – Define rights (Access, Control, Preservation) in on-chain metadata associated with the identity.
-Step 4: Rights Enforcement – On memory retrieval or modification request, verify the request signature against the identity anchor and rights metadata.
-Step 5: Audit Logging – If a request fails verification, mint an immutable audit event recording the attempted violation.
+3.	Assigning explicit rights over memory streams, including Access Right, Control Right, and Preservation Right.
 
-7.	Narrative Worked Example:
-Alice creates an identity anchor 'ID_Alice'. She performs two memory actions: posting a health record and a personal note. Each event is minted on-chain with 'ID_Alice' in the metadata. Later, Alice requests her personal history, signs the request with her private key, and retrieves the stream. An unauthorized request by Eve fails signature verification and generates an audit event 'UnauthorizedAccessAttempt(ID_Alice, Eve)'.
+4.	Enforcing rights by validating identity signatures before permitting access or modification.
 
-8.	Algorithmic Worked Example:
-Pseudocode:
-    1.	id_anchor = createSoulboundID(user_public_key)
-    2.	for event in memory_events:
-    3.	    event.metadata.identity = id_anchor
-    4.	    event.hash = sha256(event.data || id_anchor)
-    5.	    mint_event(event)
-    6.	request = receiveRequest()
-    7.	if verifySignature(request.signature, id_anchor) and hasRight(id_anchor, 'Access'):
-    8.	    return fetchMemoryStream(id_anchor)
-    9.	else:
-    10.	    mint_audit_event('AccessViolation', id_anchor, request.origin)
+5.	Logging all unauthorized access attempts or rights violations as immutable audit events.
 
-9.	Potential Embodiments:
+DETAILED DESCRIPTION
+[0006]	Each user or entity is issued a persistent, non-transferable identity anchor – such as a soulbound token or deterministic address – during genesis or account instantiation. On-chain memory events minted by or about that identity are cryptographically linked to the anchor. Associated rights metadata defines who may read, write, or delegate portions of the stream. All interactions require cryptographic signatures validated against the anchor and its rights. Violations—such as signature mismatches or overreach—are automatically logged as immutable audit events, ensuring traceability and integrity.
 
-Using biometric or multi-factor authentication bound to the identity anchor for enhanced security.
+METHOD FLOW
+1.	Identity Anchor Creation – Generate a non-transferable identity object bound to the user or entity.
 
-Employing zero-knowledge proofs to grant selective access without revealing full identity.
+2.	Memory Event Linking – For each new memory event, cryptographically associate it with the identity anchor.
 
-Multi-chain identity anchors where streams on different blockchains validate against a shared anchor.
+3.	Rights Assignment – Define and store on-chain rights metadata (Access, Control, Preservation).
 
-Delegated memory rights allowing users to grant temporary, revocable access to third parties.
+4.	Rights Enforcement – Verify all access/modification requests against the anchor and rights metadata.
 
-10.	Implementation Notes:
-Identity anchors and memory events follow a one-action-one-mint paradigm. All rights metadata and audit logs are stored on-chain. No off-chain services are required for core enforcement; signature verification and metadata checks 
-occur within protocol modules.
+5.	Audit Logging – Mint immutable audit entries upon any failed or unauthorized interaction.
 
-11.	Claims:
+NARRATIVE WORKED EXAMPLE
+[0007]	Alice creates an identity anchor 'ID_Alice'. She performs two memory actions: posting a health record and a personal note. Each event is minted on-chain with 'ID_Alice' in the metadata. Later, Alice requests her personal history, signs the request with her private key, and retrieves the stream. An unauthorized request by Eve fails signature verification and generates an audit event 'UnauthorizedAccessAttempt(ID_Alice, Eve)'.
 
-    1. A method for binding memory streams to persistent identities on a blockchain, comprising:
-    a. generating, by a processor, a non-transferable identity anchor for a user or entity;
-    b. linking, by the processor, each memory event to the identity anchor via cryptographic metadata;
-    c. defining, by the processor, rights metadata (Access, Control, Preservation) associated with the identity anchor;
-    d. verifying, by the processor, a request signature against the identity anchor and rights metadata before memory access;
-    e. minting, by the processor, an immutable audit event upon rights violation.
-    2. The method of claim 1, wherein the identity anchor is a soulbound token minted at account creation.
-    3. The method of claim 1, wherein rights metadata is stored as on-chain attributes linked to the identity anchor.
-    4. The method of claim 1, further comprising allowing delegation of rights via revocable credential events.
-    5. The method of claim 1, wherein verification is performed within on-chain protocol modules without external calls.
+ALGORITHMIC WORKED EXAMPLE
+[0008]	Pseudocode:
+// Step 1: Create a non-transferable identity anchor
+idAnchor := CreateIdentityAnchor(userPublicKey)
+// Step 2: Mint memory events bound to the anchor
+for _, event := range memoryEvents {
+    event.Metadata["identity"] = idAnchor
+    event.Hash = sha256(event.Data + idAnchor)
+    MintEvent(event)
+}
+// Step 3: Handle an incoming memory access request
+request := ReceiveRequest()
+// Step 4: Verify rights before granting access
+if VerifySignature(request.Signature, idAnchor) &&
+   HasRight(idAnchor, "Access") {
+    return FetchMemoryStream(idAnchor)
+}
+// Step 5: If verification fails, mint an immutable audit log
+MintAuditEvent(
+    type = "AccessViolation",
+    identity = idAnchor,
+    origin = request.Origin,
+    timestamp = NowUTC()
+)
+
+POTENTIAL EMBODIMENTS
+1.	Biometric or multi-factor verification bound to the identity anchor.
+
+2.	Use of zero-knowledge proofs to permit selective access without identity disclosure.
+
+3.	Multi-chain anchors allowing distributed memory across chains with shared verification.
+
+4.	Revocable delegation of memory rights via temporary credentials.
+
+IMPLEMENTATION NOTES
+[0009]	All identity anchors and memory events conform to a one-action-one-mint paradigm. Rights metadata and audit logs are stored on-chain; enforcement is handled entirely within protocol modules, without off-chain dependencies. Trait logic may observe but cannot override these rights.
+
+CLAIMS
+1.	A method for binding memory streams to persistent identities on a blockchain, comprising:
+a.	generating, by a processor, a non-transferable identity anchor for a user or entity;
+b.	linking, by the processor, each memory event to the identity anchor via cryptographic metadata;
+c.	defining, by the processor, rights metadata (Access, Control, Preservation) associated with the identity anchor;
+d.	verifying, by the processor, a request signature against the identity anchor and rights metadata before memory access;
+e.	minting, by the processor, an immutable audit event upon rights violation.
+
+2.	The method of claim 1, wherein the identity anchor is a soulbound token minted at account creation.
+
+3.	The method of claim 1, wherein rights metadata is stored as on-chain attributes linked to the identity anchor.
+
+4.	The method of claim 1, further comprising allowing delegation of rights via revocable credential events.
+
+5.	The method of claim 1, wherein all verification is performed within on-chain protocol modules without external dependencies.
+
+6.	The method of claim 1, wherein rights enforcement occurs without reliance on persistent module state, using only protocol-defined input validation at the time of memory interaction.
+
+7.	The method of claim 1, further comprising one or more observational traits that interpret access patterns and log ethical or structural violations without modifying or blocking access directly.
+
+8.	The method of claim 1, wherein rights violations trigger the automatic minting of immutable audit events without human intervention or discretionary oversight.
+
+9.	The method of claim 1, further comprising the issuance of signed, revocable credentials that temporarily delegate specific memory rights to authorized third parties.
+
+ABSTRACT
+[00010]	A system and method for binding immutable memory streams to persistent, non-transferable identities on a blockchain. Each identity anchor governs a memory log composed of one-action-one-mint events, with explicit rights for access, control, and preservation. Unauthorized access attempts are rejected and immutably logged, ensuring that personal memory remains sovereign, tamper-proof, and enforceably linked to its origin.
