@@ -23,5 +23,24 @@ This repository serves as ZEAM's intellectual property record.
 - Post-Generative Decision Support Mesh | Patent Pending 63/816,924 | Submitted: 06/03/2025 | Updated 8/4/2025
 - Surplus Flow Redistribution System and Method | Patent Pending 63/816,907 | Submitted: 06/03/2025 | Updated 8/4/2025
 
-**Utility Patents**
-- To Be Announced
+**Non-Provisional Patents**
+
+- **AI Governance, Agent Coordination, Composite Cognition, and Memory-Driven Reflex Systems for Decentralized Networks** | Patent Pending 19/331,969 | Submitted 9/17/2025
+- **BlockMesh Memory-Mesh Architecture, Stateless Protocol, Epoch Coordination, and Deterministic On-Chain Virtual Machine Execution** | Patent Pending 19/331,981 | Submitted 9/17/2025
+- **Identity, Privacy, and Selective Disclosure in Decentralized Memory Mesh Systems** | Patent Pending 19/332,006 | Submitted 9/17/2025
+- **Memory-Flow, Field Pressure, and Reflex Event Orchestration in Distributed Ledgers** | Patent Pending 19/332,021 | Submitted 9/17/2025
+- **Surplus Flow Redistribution and Civic Economic Coordination in Decentralized Systems** | Patent Pending 19/332,028 | Submitted 9/17/2025
+
+All of the Provisional applications are incorporated by reference in part or in their entirety.
+
+---
+Legal & Notices
+
+© 2024–2025 ZEAM Foundation, LLC and ZEAM Labs, LLC. All rights reserved.
+
+Patent pending. The ZEAM system is protected by U.S. patent applications covering distributed memory systems, AI governance, identity management, memory-flow orchestration, and economic coordination technologies.
+
+This repository serves as the reference implementation for licensed use of ZEAM patents. Unauthorized use of the technologies described herein may constitute patent infringement.
+
+**Repository License:** The code in this repository is provided as a reference implementation for licensed users only. A valid patent license from ZEAM Labs, LLC is required for any commercial or production use of these technologies.
+
