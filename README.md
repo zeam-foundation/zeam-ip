@@ -1,6 +1,6 @@
 ## ZEAM IP Ledger  
 
-UPDATED 9/18/2025
+UPDATED 1/18/2026
 
 This repository serves as ZEAM's intellectual property record.  
 
@@ -22,6 +22,9 @@ This repository serves as ZEAM's intellectual property record.
 - Memory Driven Autonomy for Physical Agents | Patent Pending 63/816,926 | Submitted: 06/03/2025 | Updated 7/25/2025
 - Post-Generative Decision Support Mesh | Patent Pending 63/816,924 | Submitted: 06/03/2025 | Updated 8/4/2025
 - Surplus Flow Redistribution System and Method | Patent Pending 63/816,907 | Submitted: 06/03/2025 | Updated 8/4/2025
+- Pressure-Driven Semantic Navigation and Quantum Gate-Based Response Generation | Patent Pending 63/692,768 | Submitted: 01/18/2026
+- Distributed Semantic Inference via Public Network Validation and Structured Knowledge Decoding | Patent Pending 63/962,796 | Submitted: 01/18/2026
+- Hybrid Multi-Protocol Cognitive Coordination and Semantic Message Routing | Patent Pending 63/962,802 | Submitted: 01/18/2026
 
 **Non-Provisional Patents**
 
@@ -36,7 +39,7 @@ All of the Provisional applications are incorporated by reference in part or in 
 ---
 Legal & Notices
 
-© 2024–2025 ZEAM Foundation, LLC and ZEAM Labs, LLC. All rights reserved.
+© 2025–2026 ZEAM Foundation, LLC and ZEAM Labs, LLC. All rights reserved.
 
 Patent pending. The ZEAM system is protected by U.S. patent applications covering distributed memory systems, AI governance, identity management, memory-flow orchestration, and economic coordination technologies.
 
