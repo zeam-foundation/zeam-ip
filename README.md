@@ -25,6 +25,8 @@ This repository serves as ZEAM's intellectual property record.
 - Pressure-Driven Semantic Navigation and Quantum Gate-Based Response Generation | Patent Pending 63/692,768 | Submitted: 01/18/2026
 - Distributed Semantic Inference via Public Network Validation and Structured Knowledge Decoding | Patent Pending 63/962,796 | Submitted: 01/18/2026
 - Hybrid Multi-Protocol Cognitive Coordination and Semantic Message Routing | Patent Pending 63/962,802 | Submitted: 01/18/2026
+- Multi-Perspective Distributed Computation via MAC-Seeded Cryptographic Hash Differentiation | Patent Pending 63/962,998 | Submitted: 01/19/2026
+- Passive Entropy Harvesting from Network Transaction Pools for Zero-Cost Cognitive Computation | Patent Pending 63/963,000 | Submitted: 01/19/2026
 
 **Non-Provisional Patents**
 
